@@ -79,7 +79,7 @@ text-align: center;
 
 /* Style the table */
 table {
-width: 100%;
+width: 100vw;
 margin: 0 auto;
 background-color: #fff;
 border-collapse: collapse;
