@@ -1,0 +1,127 @@
+/* Reset default margins and paddings */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Roboto", sans-serif;
+}
+
+/* Set background color, font family, and font size */
+body {
+background-color: #f2f2f2;
+font-family: Arial, sans-serif;
+font-size: 16px;
+}
+
+/* Center the h1 and h2 elements */
+h1{
+text-align: center;
+margin-top: 10px;
+color: rgb(123, 53, 2);
+}
+h2 {
+text-align: center;
+color: rgb(123, 53, 2);
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+/* Style the form */
+form {
+max-width: 100%;
+margin: 0 auto;
+background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+text-align: center;
+}
+form input[type="button"] {
+margin: 10px;
+font-size: 15px;
+font-weight: bold;
+}
+label {
+display: block;
+margin-bottom: 5px;
+color: darkblue;
+font-size: 15px;
+font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+input[type="button"] {
+background-color: #007bff;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+margin-right: 10px;
+}
+
+input[type="button"]:last-child {
+margin-right: 0;
+}
+
+#msg {
+margin-top: 20px;
+text-align: center;
+}
+
+/* Style the table */
+table {
+width: 100%;
+margin: 0 auto;
+background-color: #fff;
+border-collapse: collapse;
+border-radius: 5px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+background-color: #007bff;
+color: #fff;
+}
+
+th {
+padding: 10px;
+text-align: center;
+border: 1px solid #ccc;
+}
+td {
+padding: 10px;
+text-align: center;
+border: 1px solid #ccc;
+
+}
+
+th {
+font-weight: bold;
+font-size: 15px;
+}
+thead td{
+    font-weight: bold;
+}
+a{
+background-color: #007bff;
+color: #fff;
+padding: 5px 5px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 15px;
+text-decoration: none;
+font-weight: bold;
+}
+tbody td {
+    color: darkblue;
+}
