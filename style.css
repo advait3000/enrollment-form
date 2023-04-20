@@ -1,115 +1,102 @@
-/* Reset default margins and paddings */
-* {
+*{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: "Roboto", sans-serif;
 }
 
-/* Set background color, font family, and font size */
 body {
 background-color: #f2f2f2;
-font-family: Arial, sans-serif;
+}
+
+h1{
+margin-top: 10px;
+color: rgb(249, 247, 246);
+font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+border: rgb(123, 53, 2);
+border-style: solid;
+border-radius: 15px;
+background-color: rgb(123, 53, 2);
 font-size: 16px;
 }
-
-/* Center the h1 and h2 elements */
-h1{
-text-align: center;
-margin-top: 10px;
-color: rgb(123, 53, 2);
-}
 h2 {
-text-align: center;
 color: rgb(123, 53, 2);
-margin-bottom: 10px;
-margin-top: 10px;
+margin-bottom: 10px 0;
+font-family:cursive;
 }
-
-/* Style the form */
 form {
-max-width: 100%;
+max-width: 60vw;
 margin: 0 auto;
-background-color: #fff;
+background-color: #c2c0c9;
 padding: 20px;
 border-radius: 10px;
 box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-text-align: center;
 }
-form input[type="button"] {
-margin: 10px;
-font-size: 15px;
-font-weight: bold;
-}
+
 label {
 display: block;
 margin-bottom: 5px;
-color: darkblue;
-font-size: 15px;
+color: rgb(123, 53, 2);
+font-size: 25px;
 font-weight: bold;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 input[type="text"],
 input[type="number"] {
-width: 60%;
+width: 80%;
+height: 50px;
 padding: 10px;
 margin-bottom: 10px;
-border: 1px solid #ccc;
+border: 2px solid #ccc;
 border-radius: 5px;
+margin: 0 auto;
+font-size: 25px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-input[type="button"] {
-background-color: #007bff;
-color: #fff;
+/* input[type="button"]{
+color: #ad1515;
 padding: 10px 20px;
 border: none;
 border-radius: 5px;
 cursor: pointer;
-margin-right: 10px;
-}
+margin-right: 100px;
+border: 2px solid red;
+} */
 
-input[type="button"]:last-child {
+/* input[type="button"]:last-child {
 margin-right: 0;
-}
+} */
 
 #msg {
 margin-top: 20px;
 text-align: center;
+color: rgb(248, 5, 5);
 }
 
-/* Style the table */
 table {
-width: 100vw;
-margin: 0 auto;
 background-color: #fff;
 border-collapse: collapse;
-border-radius: 5px;
-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 thead {
-background-color: #007bff;
+background-color: rgb(123, 53, 2);
 color: #fff;
 }
 
 th {
 padding: 10px;
 text-align: center;
-border: 1px solid #ccc;
+border: 2px solid #ccc;
+font-weight: bold;
+font-size: 20px;
 }
 td {
 padding: 10px;
 text-align: center;
-border: 1px solid #ccc;
-
-}
-
-th {
-font-weight: bold;
-font-size: 15px;
-}
-thead td{
-    font-weight: bold;
+border: 2px solid #ccc;
 }
 a{
 background-color: #007bff;
@@ -118,10 +105,10 @@ padding: 5px 5px;
 border: none;
 border-radius: 5px;
 cursor: pointer;
-font-size: 15px;
+font-size: 20px;
 text-decoration: none;
-font-weight: bold;
 }
 tbody td {
-    color: darkblue;
+    color: rgb(123, 53, 2);
+    font-size: 20px;
 }

@@ -123,7 +123,6 @@ function deleteData(rowId) {
     document.getElementById("msg").innerHTML = "";
   }, 5000);
 }
-
 function resetData() {
   arr = [];
   setLocalStg(arr);
